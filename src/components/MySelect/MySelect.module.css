@@ -1,0 +1,17 @@
+.mySelect {
+  width: 50%;
+}
+.mySelect select {
+  width: 100%;
+  height: 30px;
+  border: none;
+  border-radius: var(--border-radius);
+  background-color: var(--background-color-elements);
+  margin: 10px 0 0 10px;
+}
+
+@media (max-width: 540px) {
+  .mySelect {
+    width: 40%;
+  }
+}

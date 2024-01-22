@@ -1,0 +1,18 @@
+.main {
+  display: flex;
+  flex-direction: column;
+}
+.createItem {
+  align-self: flex-end;
+}
+.topBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.topBar input {
+  width: 400px;
+  height: 35px;
+  border-radius: 10px;
+  border: 1px solid var(--background-color-elements);
+}

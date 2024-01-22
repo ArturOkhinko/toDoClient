@@ -1,0 +1,70 @@
+.item {
+  border: 1px solid silver;
+  border-radius: var(--border-radius);
+  display: flex;
+  margin-top: 10px;
+}
+.status {
+  width: 140px;
+  margin: 0 10px 10px 0;
+  font-size: 0;
+  height: 10px;
+  border-radius: var(--border-radius);
+  transition: all 0.5s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.status:hover {
+  height: 30px;
+  color: rgb(73, 73, 73);
+  font-size: 16px;
+}
+.red {
+  background-color: red;
+}
+.green {
+  background-color: green;
+}
+.orange {
+  background-color: orange;
+}
+.infoAboutTask {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.text p {
+  margin: 10px;
+}
+.text {
+  width: 100%;
+}
+.title {
+  font-size: 20px;
+}
+.description {
+  color: rgb(58, 58, 58);
+}
+.settings {
+  margin: 10px;
+  width: 30px;
+  height: 30px;
+}
+.settings {
+  cursor: pointer;
+  border: none;
+  background-color: white;
+  font-size: 24px;
+}
+.noSearched {
+  display: flex;
+  justify-content: center;
+}
+@media (max-width: 480px) {
+  .status {
+    font-size: 16px;
+    height: 30px;
+  }
+}

@@ -1,0 +1,5 @@
+* {
+  --background-color-elements: rgb(162, 162, 162);
+  --background-color-elements-hover: rgb(143, 143, 143);
+  --border-radius: 10px;
+}

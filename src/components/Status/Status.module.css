@@ -1,0 +1,20 @@
+.message {
+  border-radius: var(--border-radius);
+  position: fixed;
+  height: 50px;
+  width: 400px;
+  top: 10px;
+  left: calc(50% - 200px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.message p {
+  margin: 10px;
+}
+.ok {
+  background-color: rgba(0, 255, 0, 0.5);
+}
+.error {
+  background-color: rgba(255, 0, 0, 0.5);
+}

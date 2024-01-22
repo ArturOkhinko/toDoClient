@@ -1,0 +1,25 @@
+.mainModalWindow {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+.modalWindow {
+  min-width: 400px;
+  width: auto;
+  max-width: calc(100% - 20px);
+  height: auto;
+  max-height: calc(100vh - 20px);
+  background-color: rgb(214, 212, 212);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 10px;
+  overflow-y: scroll;
+}

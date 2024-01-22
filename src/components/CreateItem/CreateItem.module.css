@@ -1,0 +1,8 @@
+.myButton {
+  align-self: flex-end;
+}
+
+.textareas {
+  display: flex;
+  flex-direction: column;
+}

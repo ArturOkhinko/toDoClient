@@ -1,0 +1,17 @@
+.statusTask {
+  display: flex;
+  justify-content: space-between;
+}
+.myButton {
+  align-self: flex-end;
+}
+.textareas {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+}
+@media (max-width: 480px) {
+  .window {
+    min-width: calc(100% - 20px);
+  }
+}

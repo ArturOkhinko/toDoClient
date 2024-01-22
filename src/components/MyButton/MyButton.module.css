@@ -1,0 +1,12 @@
+.myButton button {
+  max-width: calc(100% - 10px);
+  height: 30px;
+  background-color: var(--background-color-elements);
+  border-radius: var(--border-radius);
+  border: none;
+  cursor: pointer;
+  margin: 10px;
+}
+.myButton button:hover {
+  background-color: var(--background-color-elements-hover);
+}
